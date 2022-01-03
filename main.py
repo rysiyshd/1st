@@ -1,6 +1,7 @@
 class main:
     def __init__(self):
 
+        print("Hello.")
         print("It is a simple calculator that only adds.")
         print("Type 'stop' to shut down the system and view the results.")
 
@@ -20,7 +21,7 @@ class main:
 
             except ValueError:
                 print("Please enter a number!!!")
-                
+
             if indata == "stop":
                 print(f"Total Data : {self.calculation_data}")
 
